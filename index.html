@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!-- BASIC META TAGS -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="Ie=edge" />
+
+    <!-- SED META TAGS -->
+    <title>PABY - Frontend Software Engineer</title>
+    <meta
+      name="description"
+      content="PABY - Frontend Software Engineer specializing in scalable web applications and enterprise solution. Expert in HTML, CSS, Javascript, C++ and modern web technologies."
+    />
+    <meta
+      name="keywords"
+      content="software engineer, frontend developer, web development, react, python, enterprise solution, flutter"
+    />
+    <meta name="author" content="PABY" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- OPEN GRAPH META TAGS -->
+    <meta property="og:title" content="PABY - Frontend Software Engineer" />
+    <meta
+      property="og:description"
+      content="Building scalable web applications and cloud solutions with modern technologies."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://paby.com" />
+    <meta property="og:image" content="http://link-to-your-pic" />
+    <meta property="og:site_name" content="PABY-Portfolio" />
+    <meta property="og:locale" content="en_us" />
+
+    <!-- X (FORMERLY TWITTER) CARD META TAGS -->
+    <meta name="twitter:card" content="summary_large_image " />
+    <meta name="twitter:title" content="PABY Frontend Software Engineer" />
+    <meta
+      name="twitter:description"
+      content="Building scalable web applications and cloud solutions with modern technologies."
+    />
+    <meta name="twitter:image:alt" content="PABY - Professional Head shot" />
+    <meta name="twitter:site" content="@paby-dev" />
+    <meta name="twitter:creator" content="@paby-dev" />
+
+    <!-- FAVICON -->
+    <!-- SVG favicon for modern browsers -->
+    <link
+      rel="icon"
+      href="/resources/images/Gemini_Generated_Image_t4r4rlt4r4rlt4r4.png"
+      type="imagesvg+xml"
+    />
+    <!-- ICON fallback for older browsers -->
+    <link rel="icon" href="favicon.ico" type="image/x_icon" size="32x32" />
+    <!-- Apple Touch Icon for ios -->
+    <link rel="shortcut icon" href="apple-touch-icon.png" />
+    <!-- Android chrome -->
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- PRELOAD CRITICAL RESOURCES -->
+    <link rel="preload" href="http://link-fonts" as="style" />
+    <link
+      rel="preload"
+      href="https://link-fonts-from-google"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- LOADING SPINNER -->
+    <!-- #loading-spinner.loading-spinner>.spinner -->
+    <div id="loading-spinner" class="loading-spinner">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <!-- nav#navbar.navbar.nav-container>. -->
+    <nav id="navbar" class="navbar">
+      <div class="nav-container">
+        <!-- .nav-logo>a -->
+        <div class="nav-logo">
+          <a href="#home">Prince A.B. Yaw</a>
+        </div>
+        <!-- #nav-menu.nav-menu>ul.nav-list>(li.nav-item>a.nav-link)*5 -->
+        <!-- #nav-menu.nav-menu>ul.nav-list>(li.nav-item>a.nav-link)*5 -->
+        <div id="nav-menu" class="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#project" class="nav-link">Project</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- .nav-controls>(button.theme-toggle#theme-toggle[aria-label="Toggle dark mode"]>span.theme-icon{🌙}).button.hamburger#hamburger[aria-label="Toggle mobile menu"]>span.hamburger-line*3 -->
+        <div class="nav-controls">
+          <button
+            class="theme-toggle"
+            id="theme-toggle"
+            aria-label="Toggle dark mode"
+          >
+            <span class="theme-icon">🌙</span>
+          </button>
+          <div
+            class="button hamburger"
+            id="hamburger"
+            aria-label="Toggle mobile menu"
+          >
+            <span class="hamburger-line"></span
+            ><span class="hamburger-line"></span
+            ><span class="hamburger-line"></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- HERO SECTION -->
+      <!-- section#home.hero -->
+      <section id="home" class="hero">
+        <!-- .hero-background>.gradient-overlay+#particles-container.particles-container -->
+        <div class="hero-background">
+          <div class="gradient-overlay"></div>
+          <div id="particles-container" class="particles-container"></div>
+        </div>
+        <!-- .hero-content>.hero-text+.hero-scroll -->
+        <div class="hero-content">
+          <div class="hero-text">
+            <!-- h1>span.hero-name{Prince .A. B Yaw}+span.hero-subtitle{Full Stack Software Engineer} -->
+            <h1>
+              <span class="hero-name">Prince A.B Yaw</span
+              ><span class="hero-subtitle">Full stack Frontend Engineer</span>
+            </h1>
+            <!-- p.hero-tagline -->
+            <p class="hero-tagline">
+              Building scalable solutions for Africa's digital transformation
+            </p>
+
+            <!-- .hero-buttons>a.btn.btn-primary+a.btn.btn-secondary -->
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-scroll">
+          <!-- .scroll-indicator>span{scroll to explore}+.scroll-arrow -->
+          <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow"></div>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT SECTION -->
+      <!-- section#about.about>.container  -->
+      <section id="about" class="about">
+        <div class="container">
+          <!-- h2.section-title{About Me} -->
+          <h2 class="section-title">About Me</h2>
+
+          <!-- .about-content>.about-image+.about-text  -->
+          <div class="about-content">
+            <div class="about-image">
+              <!-- .image-wrapper>img+.about-overlay  -->
+              <div class="image-wrapper">
+                <img
+                  src="resources/images/Gemini_Generated_Image_23y1rs23y1rs23y1.png"
+                  alt="Prince .A.B. Yaw - Professional headshot "
+                />
+                <div class="image-overlay"></div>
+              </div>
+            </div>
+
+            <div class="about-text">
+              <!-- write a bio of about 50 words each for 4 paragraph -->
+              <div class="about-bio">
+                <p>
+                  Description About Prince Boateng Yaw As A Software Engineer
+                </p>
+                <p>
+                  Profile of Prince Boateng Awwuette Yaw, Software Engineer
+                  Prince Boateng Awwuette Yaw is a dynamic professional with a
+                  strong foundation in both traditional education and practical
+                  engineering skills. The journey began in the basic education
+                  system, where I acquired the fundamental knowledge and
+                  discipline necessary for academic success. This foundational
+                  phase, spanning primary and secondary schooling, established a
+                  solid base in logical reasoning, mathematics, and critical
+                  thinking—skills that are indispensable in the field of
+                  software engineering. This early commitment to comprehensive
+                  learning paved the way for more specialized academic pursuits
+                  at the tertiary level. My formal education culminated in a
+                  university degree, where I specialized in a field relevant to
+                  his current profession, such as Computer Science, Computer
+                  Engineering, or Information Technology. This advanced study
+                  provided me with a deep, theoretical understanding of complex
+                  computational principles, algorithms, data structures, and
+                  system architecture. The university curriculum likely involved
+                  rigorous projects and intensive coding practice, transitioning
+                  my knowledge from abstract concepts into practical,
+                  problem-solving abilities. This academic specialization marked
+                  the critical step in preparing him for the demands of a
+                  high-tech career. Transitioning into this professional career
+                  as a Software Engineer, Prince Boateng Awwuette Yaw operates
+                  at the intersection of innovation and execution. My role as a
+                  full-stack engineer, which was referenced in previous
+                  interactions, suggests proficiency across the entire software
+                  development spectrum. This includes developing user-facing
+                  front-end components (using technologies like HTML, CSS, and
+                  modern JavaScript frameworks) and building robust, scalable
+                  back-end systems (handling databases, server logic, and API
+                  development). He is responsible for taking a concept from
+                  initial requirement gathering through design, coding, testing,
+                  and deployment. Ultimately, my value lies in his ability to
+                  leverage collective potentials—a principle he emphasized
+                  earlier—to deliver complete, functional software solutions. My
+                  work involves not only writing efficient code but also
+                  collaborating effectively with teams, understanding business
+                  needs (such as the church management system idea), and
+                  continuously learning new technologies to keep systems current
+                  and secure. As a software engineer, Prince Boateng Awwuette
+                  Yaw embodies a blend of technical expertise, problem-solving
+                  prowess, and a commitment to professional excellence that
+                  drives successful project delivery in the digital landscape.
+                </p>
+              </div>
+
+              <!-- .about-skills>h1{Technical skills}+.skills-grid>(.skill-item>(.skill-header>span.skill-name+span.skill-percentage)+.skill-bar.skill-progress[data-width="92%"])*4 -->
+
+              <div class="about-skills">
+                <h1>Technical skills</h1>
+                <div class="skills-grid">
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">System Analysis</span
+                      ><span class="skill-precentage">95%</span>
+                    </div>
+                    <div
+                      class="skill-bar skill-progress"
+                      data-width="95%"
+                    ></div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">HTML</span
+                      ><span class="skill-percentage">90%</span>
+                    </div>
+                    <div
+                      class="skill-bar skill-progress"
+                      data-width="90%"
+                    ></div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">CSS</span
+                      ><span class="skill-percentage">95%</span>
+                    </div>
+                    <div
+                      class="skill-bar skill-progress"
+                      data-width="92%"
+                    ></div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">Javascript</span
+                      ><span class="skill-percentage">60%</span>
+                    </div>
+                    <div
+                      class="skill-bar skill-progress"
+                      data-width="60%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- PROJECTS SECTION -->
+      <section id="projects" class="projects">
+        <div class="container">
+          <!-- h2.section-title{Featured Projects}+.projects-filter>button.filter-btn.active[data-filter="all"]+(button.filter-btn[data-filter=fintech]{Fintech})*4 -->
+
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="projects-filter">
+            <button class="filter-btn active" data-filter="all"></button
+            ><button class="filter-btn" data-filter="fintech">FinTech</button>
+            <button class="filter-btn" data-filter="healthtech">
+              HealthTech
+            </button>
+            <button class="filter-btn" data-filter="edtech">EdTech</button>
+            <button class="filter-btn" data-filter="agritech">AgriTech</button>
+            <button class="filter-btn" data-filter="tech">Fintech</button>
+          </div>
+        </div>
+        <!-- project 1: Mobile Money Platform -->
+        <!-- .project-card[data-category="fintech"]>.project-image=.project-content  -->
+        <div class="project-card" data-category="fintech ">
+          <div class="project-image">
+            <!-- img+.project-overlay.project-link>(a.project-link>span{Live Demo})+a.project-link{Github} -->
+
+            <img
+              src="resources/images/Gemini_Generated_Image_ex3gbgex3gbgex3g.png"
+              alt="Mobile Money project"
+              loading="lazy"
+              <div
+              class="project-link"
+            />
+            <a
+              href="#"
+              class="project-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><span>Live Demo</span></a
+            ><a
+              href="#"
+              class="project-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Github</a
+            >
+          </div>
+        </div>
+        <!-- </div> -->
+        <div class="project-content">
+          <!-- h3.project-title{Mobile Money Platform}+(p.project-description>lorem32)+.project-tech>(span.tech-tag)*6 -->
+          <h3 class="project-title">ONLINE TRANSPORT SYSTEM</h3>
+          <p class="project-description">
+            SKYLYNX TRANSPORT SYSTEM provides safe, reliable, and efficient
+            transportation solutions connecting communities and key
+            destinations. Our core service focuses on delivering a seamless
+            travel experience, utilizing a modern fleet (or network) optimized
+            for comfort and punctuality. We specialize in offering timely,
+            scheduled journeys (e.g., city-to-city, inter-state, or commuter
+            lines) while prioritizing customer safety, professional service, and
+            operational excellence to meet the diverse travel needs of our
+            clientele.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML</span><span class="tech-tags">Css</span
+            ><span class="tech-tags">Javascript</span>
+          </div>
+        </div>
+        <!-- </div> Copy And paste this element the number of iems of projects you have to showcase -->
+      </section>
+
+      <!-- Experience Section -->
+      <!-- section#experience.experience>.container>h1.section-title{Experirnce &amp; Education}+.timeline  -->
+      <section id="experience" class="experience">
+        <div class="container">
+          <h1 class="section-title">Experience &amp; Education</h1>
+
+          <div class="timeline">
+            <!-- Experience Items -->
+            <div class="timeline-item" data-type="experience">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3 class="timeline-title">Frontend Developer</h3>
+                  <span class="timeline-company">SANLAM ALLIANZ LIFE</span
+                  ><span class="timeline-date">2024 - Present</span>
+                </div>
+                <div class="timeline-location">Accra, Ghana</div>
+                <ul class="timeline-details">
+                  <li>
+                    Working Experience at SanlamAllianz Prior to or concurrent
+                    with his full-stack responsibilities, Prince Boateng
+                    Awwuette Yaw gained crucial experience as a Frontend
+                    Developer at SanlamAllianz. In this role, he was
+                    instrumental in crafting the user-facing layer of financial
+                    technology applications, focusing on delivering exceptional
+                    User Experience (UX) and User Interface (UI) design. This
+                    involved translating complex financial data and processes
+                    into intuitive, responsive, and secure web and mobile
+                    interfaces. His work ensured accessibility and seamless
+                    interaction for users accessing critical services. The
+                    tenure at a global financial giant like SanlamAllianz
+                    demonstrates proficiency with enterprise-grade coding
+                    standards, agile methodologies, and adherence to strict
+                    regulatory and data security requirements, making him a
+                    proven asset in high-stakes technological environments.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item" data-type="experience">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3 class="timeline-title">SYSTEM MANAGER</h3>
+                  <span class="timeline-company">PICKMORE SUPERMARKET</span
+                  ><span class="timeline-date">2022 - 2023</span>
+                </div>
+                <div class="timeline-location">KASOA, Ghana</div>
+                <ul class="timeline-details">
+                  <li>
+                    Experience in System Management (Supermarket Operations)
+                    Complementing his software development background, Prince
+                    Boateng Awwuette Yaw possesses valuable hands-on experience
+                    in System Management within a dynamic supermarket
+                    environment. This role required technical proficiency in
+                    maintaining and optimizing critical retail systems,
+                    including Point-of-Sale (POS) terminals, inventory
+                    management platforms, and networked infrastructure. This
+                    experience provided a crucial understanding of how
+                    technology directly impacts operational efficiency and
+                    customer satisfaction. He was responsible for system uptime,
+                    troubleshooting hardware and software issues under pressure,
+                    and potentially training staff—skills that highlight his
+                    versatility and his ability to manage technology where
+                    immediate business continuity is paramount.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item" data-type="experience">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3 class="timeline-title">ONLINE MARKETING MANAGER</h3>
+                  <span class="timeline-company">HERBAL LIFE GHANA</span
+                  ><span class="timeline-date">2017 - 2019</span>
+                </div>
+                <div class="timeline-location">Spintex-Accra, Ghana</div>
+                <ul class="timeline-details">
+                  <li>
+                    Experience in Online Marketing System Management (Herbalife
+                    Ghana) Prince Boateng Awuette Yaw further diversified his
+                    skill set as an Online Marketing System Manager for
+                    Herbalife Ghana. This role involved technical ownership of
+                    the digital platforms that drive sales and recruitment,
+                    demanding expertise in managing CRM systems, email marketing
+                    platforms, and e-commerce infrastructure. His
+                    responsibilities included optimizing digital workflows,
+                    analyzing campaign performance data, and ensuring seamless
+                    system integration to support large-scale network marketing
+                    operations. This experience demonstrates a valuable
+                    combination of technical systems management with a strategic
+                    focus on digital business growth and maximizing return on
+                    investment (ROI) for online marketing efforts.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- </div>
+        </div> -->
+      </section>
+
+      <!-- CONTACT SESSION -->
+      <!-- sec#contact.contact>container>h2.section-title{Get In Touch}+.content -->
+      <section id="contact" class="contact">
+        <container>
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="contact-content">
+            <!-- .contact-info.\contact-form -->
+            <div class="contact-info">
+              <!-- h3{let's Build Together}+(p>lorem36)+.contact-details -->
+              <h3>Let's Build Together</h3>
+              <p>
+                Prince Boateng Awwuette Yaw is a dedicated Full-Stack Software
+                Engineer with a comprehensive university background and a proven
+                track record in enterprise environments. My expertise spans the
+                entire development lifecycle, from designing robust back-end
+                systems to crafting secure, high-performance user interfaces,
+                notably gained as a Frontend Developer at SanlamAllianz. Beyond
+                coding, I possess valuable experience in systems optimization,
+                including managing Point-of-Sale (POS) systems in retail and
+                overseeing online marketing platforms for Herbalife Ghana. I
+                leverage a unique blend of technical mastery, operational
+                insight, and a strategic focus on digital growth to deliver
+                integrated, effective software solutions.
+              </p>
+              <div class="contact-details">
+                <!-- (.contact-item>span.contact-item{✉️}+span.contact-text{paby@engineer.com})*4 -->
+                <div class="contact-item">
+                  <span class="contact-item">✉️</span
+                  ><span class="contact-text">paby@engineer.com</span>
+                </div>
+                <div class="contact-item">
+                  <span class="contact-item">📞</span
+                  ><span class="contact-text"
+                    >+233 53 665 4653/+233 50 850 7580</span
+                  >
+                </div>
+                <div class="contact-item">
+                  <span class="contact-item">📍</span
+                  ><span class="contact-text"
+                    >Accra Ghana (Remote Available)</span
+                  >
+                </div>
+                <div class="contact-item">
+                  <span class="contact-item">🕡</span
+                  ><span class="contact-text">Response Within 24 hours</span>
+                </div>
+              </div>
+            </div>
+            <div class="contact-form">
+              <!-- form.contact-form-offline#contact-form-offline>h3{Send Message}+(.form-group>label[for=""]{Text here *}+input[required])*4+(.form-group>label [for="message"]{Message *}+textarea#message.message{row="5" required placeholder="Tell me about your project, timeline, and how I can help..."})+button.btn.btn-primary[type="submit"]{Send message} -->
+              <form
+                action="#"
+                class="contact-form-offline"
+                id="contact-form-offline"
+              >
+                <h3>Send Message</h3>
+                <div class="form-group">
+                  <label for="">Text here *</label
+                  ><input type="text" required="required" />
+                </div>
+                <div class="form-group">
+                  <label for="">Text here *</label
+                  ><input type="text" required="required" />
+                </div>
+                <div class="form-group">
+                  <label for="">Text here *</label
+                  ><input type="text" required="required" />
+                </div>
+                <div class="form-group">
+                  <label for="">Text here *</label
+                  ><input type="text" required="required" />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message *</label
+                  ><textarea name="" id="message" class="message">
+rows
+                    =
+                    "5" required placeholder="Tell me about your project, timeline, and how I can help..."</textarea
+                  >
+                </div>
+                <button class="btn btn-primary" type="submit">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </container>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <!-- footer.footer>container>.footer-content>.footer-social+.footer-info -->
+    <footer class="footer">
+      <container>
+        <div class="footer-content">
+          <div class="footer-social">
+            <a
+              href="#"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Github"
+              ><span class="social-icon">😎</span></a
+            ><a
+              href="#"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Github"
+              ><span class="social-icon">😎</span></a
+            ><a
+              href="#"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Github"
+              ><span class="social-icon">😎</span></a
+            >
+          </div>
+          <div class="footer-info">
+            <p>&copy; 2025 Prince A. B. Yaw All rights reserved.</p>
+            <p>Build with 👍 in Accra, Ghana</p>
+          </div>
+        </div>
+      </container>
+    </footer>
+
+    <!-- BACK TO THE TOP BUTTON -->
+    <!-- button.back-to-top#back-to-top[aria-lable="back to  top"]>span.back-to-top-icon -->
+    <button class="back-to-top" id="back-to-top" aria-lable="back to  top">
+      <span class="back-to-top-icon"></span>
+    </button>
+
+    <!-- JAVASCRIPT -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
